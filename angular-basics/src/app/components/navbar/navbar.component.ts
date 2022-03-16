@@ -2,9 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
-  template: `
-    <br><button>I love NavBars</button>
-  `,
+  templateUrl: "./navbar.component.html",
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
@@ -14,7 +12,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  
+  text = "NavBar"
 
 
 }
