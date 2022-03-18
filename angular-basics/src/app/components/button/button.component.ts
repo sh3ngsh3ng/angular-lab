@@ -18,4 +18,9 @@ export class ButtonComponent implements OnInit {
     console.log("I am a button!")
   }
   
+  showAlert() {
+    alert("This is an alert")
+  }
+
+
 }
