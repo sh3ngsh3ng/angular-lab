@@ -12,8 +12,4 @@ export class TempexpComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  printHelloWorld() {
-    console.log("Hello World")
-  }
-
 }

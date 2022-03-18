@@ -13,5 +13,9 @@ export class ButtonComponent implements OnInit {
   }
 
   text = "Button"
+
+  printButton() {
+    console.log("I am a button!")
+  }
   
 }
